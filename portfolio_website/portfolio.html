@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dheeraj | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1e3c72, #2a5298);
+      color: white;
+      padding: 2em 1em;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 0.5em;
+    }
+
+    nav {
+      margin-top: 1em;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2em auto;
+      padding: 1em;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    section {
+      margin-bottom: 2em;
+    }
+
+    section h2 {
+      color: #2a5298;
+      margin-bottom: 0.5em;
+    }
+
+    #about {
+      display: flex;
+      align-items: center;
+      gap: 1.5em;
+    }
+
+    #about img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      padding: 0.4em 0;
+    }
+
+    a.button {
+      background: #2a5298;
+      color: white;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 0.5em;
+    }
+
+    footer {
+      background: #2a5298;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      border-top: 5px solid #1e3c72;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dheeraj</h1>
+    <p>Frontend Developer | Creative Designer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Dheeraj's Photo">
+      <div>
+        <h2>About Me</h2>
+        <p>Hello! I'm <strong>Dheeraj</strong>, a passionate frontend developer focused on crafting clean and user-friendly web interfaces. I enjoy transforming ideas into real websites.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>✅ HTML5, CSS3, JavaScript</li>
+        <li>✅ React & Responsive Design</li>
+        <li>✅ Git, GitHub, VS Code</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p><strong>Landing Page:</strong> A responsive landing page for a fictional startup.</p>
+      <p><strong>Calculator App:</strong> A basic web calculator built using JavaScript.</p>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <a href="resume.pdf" class="button" download>📄 Download Resume</a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>📧 Email: dheeraj@example.com</p>
+      <p>📞 Phone: +1234567890</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Dheeraj | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
